@@ -1,0 +1,302 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Video Watch - My Youtube 2026</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/owl.carousel.css" rel="stylesheet" />
+    <link href="assets/css/owl.theme.default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light mb-3 main-nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="assets/images/youtube-logo.png" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 left-menu-top">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">
+                            <i class="fa-solid fa-house"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="list.html">
+                            <i class="fa-solid fa-compact-disc"></i>
+                            Music
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="list.html">
+                            <i class="fa-solid fa-video"></i>
+                            MV
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="list.html">
+                            <i class="fa-solid fa-file-video"></i>
+                            Short
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="list.html">
+                            <i class="fa-solid fa-cat"></i>
+                            Cartoon
+                        </a>
+                    </li>
+                </ul>
+                <form class="search-top" action="search_results.html">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Recipient’s username" aria-label="Recipient’s username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </form>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 right-menu-top">
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">
+                            <i class="fa-solid fa-user-plus"></i>
+                            Register
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">
+                            <i class="fa-solid fa-user-shield"></i>
+                            Sign in
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid watch-page">
+        <div class="row gx-4">
+            <div class="col-lg-2 col-left">
+                <section class="border-bottom left-nav">
+                    <nav class="nav flex-column">
+                        <a class="nav-link active" href="index.html">
+                            <i class="fa-solid fa-house"></i>
+                            <span>Home</span>
+                        </a>
+                        <a class="nav-link" href="list.html">
+                            <i class="fa-solid fa-compact-disc"></i>
+                            <span>Music</span>
+                        </a>
+                        <a class="nav-link" href="list.html">
+                            <i class="fa-solid fa-video"></i>
+                            <span>MV</span>
+                        </a>
+                        <a class="nav-link" href="list.html">
+                            <i class="fa-solid fa-file-video"></i>
+                            <span>Short</span>
+                        </a>
+                        <a class="nav-link" href="list.html">
+                            <i class="fa-solid fa-cat"></i>
+                            <span>Cartool</span>
+                        </a>
+                    </nav>
+                </section>
+                <div class="user-signin my-3 pb-4 border-bottom">
+                    <span class="d-block mb-2">Sign in to like videos, comment and subscribe.</span>
+                    <button type="button"
+                            class="btn btn-outline-primary" onclick="window.location.href='login.html'">
+                        <i class="fa-regular fa-circle-user"></i>
+                        Sign In
+                    </button>
+                </div>
+                <section class="border-bottom left-nav">
+                    <nav class="nav flex-column">
+                        <a class="nav-link active" href="chanel.html">
+                            <i class="fa-solid fa-compact-disc"></i>
+                            <span>Jack 97</span>
+                        </a>
+                        <a class="nav-link" href="chanel.html">
+                            <i class="fa-solid fa-compact-disc"></i>
+                            <span>Sơn Tùng M-TP</span>
+                        </a>
+                        <a class="nav-link" href="chanel.html">
+                            <i class="fa-solid fa-compact-disc"></i>
+                            <span>Độ Mixi</span>
+                        </a>
+                        <a class="nav-link" href="chanel.html">
+                            <i class="fa-solid fa-compact-disc"></i>
+                            <span>Pew Pew</span>
+                        </a>
+                        <a class="nav-link" href="chanel.html">
+                            <i class="fa-solid fa-compact-disc"></i>
+                            <span>Bom Man</span>
+                        </a>
+                    </nav>
+                </section>
+                <div class="copy-right mt-3 text-light-emphasis text-center">
+                    <small>&copy; 2026 Google LLC</small>
+                </div>
+            </div>
+            <div class="col-lg-10 col-right">
+                <div class="row gx-4">
+            <!-- Main Video Column -->
+            <div class="col-xl-8 col-lg-8">
+                <div class="player-container">
+                    <img src="https://img.youtube.com/vi/ONy9OXyj3aE/maxresdefault.jpg" alt="Video Player Placeholder"
+                        style="width: 100%; height: 100%; object-fit: cover;" />
+                    <!-- In a real app, an iframe or video tag goes here -->
+                </div>
+
+                <h1 class="video-title">Tom and Jerry | Mega Episode: Golden Era Vol. 6 | Warner Classics</h1>
+
+                <div class="channel-info-row">
+                    <div class="channel-identity">
+                        <img src="assets/images/MrBeast-Logo.jpg" alt="Channel Avatar" />
+                        <div>
+                            <div class="fw-bold fs-6">Mr Beast VN <i
+                                    class="fa-solid fa-circle-check fa-xs text-muted ms-1"></i></div>
+                            <div class="text-muted" style="font-size: 12px;">125M subscribers</div>
+                        </div>
+                        <button
+                            class="btn btn-dark rounded-pill px-3 ms-3 fw-bold text-white shadow-sm">Subscribe</button>
+                    </div>
+                    <div class="action-buttons d-flex gap-2">
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn"><i class="fa-regular fa-thumbs-up me-2"></i>1.2M</button>
+                            <button type="button" class="btn border-start"><i
+                                    class="fa-regular fa-thumbs-down"></i></button>
+                        </div>
+                        <button type="button" class="btn"><i class="fa-solid fa-share me-2"></i>Share</button>
+                        <button type="button" class="btn"><i
+                                class="fa-regular fa-circle-down me-2"></i>Download</button>
+                        <button type="button" class="btn rounded-circle"><i class="fa-solid fa-ellipsis"></i></button>
+                    </div>
+                </div>
+
+                <div class="video-description mb-4">
+                    <p class="fw-bold mb-1">5.6M views &bull; 2 years ago</p>
+                    <p class="mb-0">
+                        Enjoy this classic Mega Episode from the Golden Era of Tom and Jerry!
+                        <br><br>
+                        Don't forget to like and subscribe for more classic cartoons!
+                        <br>
+                        #TomAndJerry #Cartoons #WarnerBros
+                    </p>
+                </div>
+
+                <!-- Comments Section -->
+                <div class="comment-section">
+                    <h5 class="fw-bold mb-4">12,408 Comments</h5>
+
+                    <div class="comment align-items-center mb-4">
+                        <img src="assets/images/youtube-logo.png" />
+                        <div class="flex-grow-1">
+                            <input type="text"
+                                class="form-control border-0 border-bottom bg-transparent rounded-0 shadow-none px-0"
+                                placeholder="Add a comment...">
+                        </div>
+                    </div>
+
+                    <div class="comment">
+                        <img src="https://ui-avatars.com/api/?name=User+One" />
+                        <div>
+                            <div class="fw-bold" style="font-size: 13px;">@user-one2026 <span
+                                    class="fw-normal text-muted ms-1">1 day ago</span></div>
+                            <p class="mb-1">This never gets old. Classic childhood memories!</p>
+                            <div class="d-flex align-items-center gap-3 text-muted" style="font-size: 13px;">
+                                <span><i class="fa-regular fa-thumbs-up fa-fw"></i> 154</span>
+                                <span><i class="fa-regular fa-thumbs-down fa-fw"></i></span>
+                                <b class="text-dark cursor-pointer">Reply</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <img src="https://ui-avatars.com/api/?name=Gaming+Pro" />
+                        <div>
+                            <div class="fw-bold" style="font-size: 13px;">@GamingProYT <span
+                                    class="fw-normal text-muted ms-1">2 weeks ago</span></div>
+                            <p class="mb-1">The animation quality from this era is unmatched. Incredible music too.</p>
+                            <div class="d-flex align-items-center gap-3 text-muted" style="font-size: 13px;">
+                                <span><i class="fa-regular fa-thumbs-up fa-fw"></i> 89</span>
+                                <span><i class="fa-regular fa-thumbs-down fa-fw"></i></span>
+                                <b class="text-dark cursor-pointer">Reply</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Suggestions Column -->
+            <div class="col-xl-4 col-lg-4">
+                <div class="d-flex gap-2 mb-3 overflow-auto" style="white-space: nowrap;">
+                    <a href="search_results.html" class="btn btn-dark rounded-pill px-3 py-1 text-white">All</a>
+                    <a href="search_results.html" class="btn btn-light rounded-pill px-3 py-1 border">From Mr Beast VN</a>
+                    <a href="search_results.html" class="btn btn-light rounded-pill px-3 py-1 border">Cartoons</a>
+                </div>
+
+                <div class="suggestions-list">
+                    <!-- Suggestion 1 -->
+                    <a href="watch.html" class="suggestion-card p-1">
+                        <img src="https://img.youtube.com/vi/ONy9OXyj3aE/maxresdefault.jpg" alt="Thumbnail">
+                        <div class="info">
+                            <div class="title">Tom and Jerry in Full Screen HQ (Long Video)</div>
+                            <div class="channel">Cartoon Classics</div>
+                            <div class="views">2.1M views &bull; 1 year ago</div>
+                        </div>
+                    </a>
+                    <!-- Suggestion 2 -->
+                    <a href="watch.html" class="suggestion-card p-1">
+                        <img src="https://img.youtube.com/vi/ONy9OXyj3aE/maxresdefault.jpg" alt="Thumbnail">
+                        <div class="info">
+                            <div class="title">I Spent 50 Hours In Solitary Confinement</div>
+                            <div class="channel">Mr Beast VN</div>
+                            <div class="views">125M views &bull; 6 months ago</div>
+                        </div>
+                    </a>
+                    <!-- Suggestion 3 -->
+                    <a href="watch.html" class="suggestion-card p-1">
+                        <img src="https://img.youtube.com/vi/ONy9OXyj3aE/maxresdefault.jpg" alt="Thumbnail">
+                        <div class="info">
+                            <div class="title">Top 10 Cartoon Openings of All Time</div>
+                            <div class="channel">WatchMojo</div>
+                            <div class="views">850Ký views &bull; 2 years ago</div>
+                        </div>
+                    </a>
+                    <!-- Suggestion 4 -->
+                    <a href="watch.html" class="suggestion-card p-1">
+                        <img src="https://img.youtube.com/vi/ONy9OXyj3aE/maxresdefault.jpg" alt="Thumbnail">
+                        <div class="info">
+                            <div class="title">100 Days Building A Modern Underground Hut With A Grass Roof...</div>
+                            <div class="channel">Building Wood</div>
+                            <div class="views">5.3M views &bull; 10 months ago</div>
+                        </div>
+                    </a>
+                    <!-- Suggestion 5 -->
+                    <a href="watch.html" class="suggestion-card p-1">
+                        <img src="https://img.youtube.com/vi/ONy9OXyj3aE/maxresdefault.jpg" alt="Thumbnail">
+                        <div class="info">
+                            <div class="title">Lofi Hip Hop Radio - Beats to Relax/Study to</div>
+                            <div class="channel">Lofi Girl</div>
+                            <div class="views">20Ký watching</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+            </div>
+        </div>
+    </div>
+    <section id="scripts">
+        <script src="assets/js/bootstrap.bundle.js"></script>
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/script.js"></script>
+    </section>
+</body>
+
+</html>
+

@@ -1,0 +1,28 @@
+{
+  "version": "3.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "bootstrap@5.3.8",
+      "destination": "assets/",
+      "files": [
+        "css/bootstrap.css",
+        "css/bootstrap.min.css",
+        "js/bootstrap.bundle.js",
+        "js/bootstrap.bundle.min.js"
+      ]
+    },
+    {
+      "library": "jquery@3.7.1",
+      "destination": "assets/js",
+      "files": [
+        "jquery.js",
+        "jquery.min.js"
+      ]
+    },
+    {
+      "library": "OwlCarousel2@2.3.4",
+      "destination": "assets/"
+    }
+  ]
+}
